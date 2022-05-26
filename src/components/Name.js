@@ -1,8 +1,11 @@
 import React from 'react';
 
+
 const Name = () => {
     return (
-        <p className='name'>flew</p>
+        <p className='name'>
+            flew
+        </p>
     );
 };
 

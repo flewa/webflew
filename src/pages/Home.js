@@ -3,6 +3,7 @@ import BackgroundCur from '../components/BackgroundCur';
 import FaButton from '../components/FaButton';
 import Name from '../components/Name';
 
+
 const Home = () => {
     return (
         <div className='root'>

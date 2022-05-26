@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types'
 
+
 const RedirectLink = (props) => {
 
     const {
@@ -8,7 +9,7 @@ const RedirectLink = (props) => {
     } = props
 
     window.location.href = url;
-    
+
     return (
       <div> </div>
     );

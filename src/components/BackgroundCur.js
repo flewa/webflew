@@ -2,6 +2,7 @@ import React from 'react';
 import $ from 'jquery';
 import {TweenMax, Power4} from 'gsap'
 
+
 const BackgroundCur = () => {
     
     $(window).mousemove(function(e) { 
