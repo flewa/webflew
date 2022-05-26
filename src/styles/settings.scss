@@ -1,0 +1,41 @@
+$darkgray: #282c34;
+$white: #ebe7d9;
+$red : #d42735;
+$blue : #275ed4;
+$code : "Cascadia Code";
+
+
+@mixin verticalCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  cursor: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: $white;
+}
+
+.container{
+  display: inline;
+  min-height: 100vh;
+}
+
+.socials{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+  margin: auto;
+  min-height: 100vh;
+}
+
+li {
+  list-style-type: none;
+}

@@ -1,0 +1,15 @@
+.name{
+  font-family: $code;
+  font-size: 3.5em;
+  color: $darkgray;
+  margin-top: 1em;
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  top : 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+

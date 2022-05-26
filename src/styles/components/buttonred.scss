@@ -1,0 +1,16 @@
+.button-red{
+    margin: 10px;
+    font-family: $code;
+    font-size: 1.2em;
+    color: $white;
+    background-color: $red;
+    border-radius: 8px;
+    border-style: none;
+    text-align: center;
+    margin-top: 1em;
+    padding: .5em;
+
+    &:hover{
+        background-color: #d6313e;
+    }
+}
