@@ -24,7 +24,6 @@ FaButton.propTypes = {
     url: PropTypes.string.isRequired,
     id: PropTypes.string.isRequired,
     faId: PropTypes.string.isRequired,
-
 }
 
 export default FaButton;
