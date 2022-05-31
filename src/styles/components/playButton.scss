@@ -1,5 +1,4 @@
-.button-red{
-    margin: 10px;
+.playsnake{
     font-family: $code;
     font-size: 1.2em;
     color: $white;
@@ -7,10 +6,12 @@
     border-radius: 8px;
     border-style: none;
     text-align: center;
-    margin-top: 1em;
     padding: .5em;
+    width: 100px;
 
+    
     &:hover{
-        background-color: #d6313e;
+        background-color: #972f37;
+        box-shadow: 0 0mm 2mm rgb(8, 8, 8);
     }
 }

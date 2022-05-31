@@ -11,7 +11,15 @@ $code : "Cascadia Code";
   align-items: center;
 }
 
+@mixin gridDeveloppement {
+  background-color: #282c342c;
+  border: #282c34;
+  border-style: dashed;
+}
+
 * {
+  user-select:none;
+
   cursor: none;
   padding: 0;
   margin: 0;
@@ -22,20 +30,40 @@ body {
   background: $white;
 }
 
+.root{
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
 .container{
-  display: inline;
-  min-height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3,  20% 1fr );
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
 }
 
+.logo-name{
+  grid-area: 1 / 1 / 2 / 4;
 
-.socials{
-  display: flex;
+}
+
+.socials { 
+
+  grid-area: 2 / 1 / 3 / 4;
+  display: inline-flex;
   justify-content: center;
-  align-items: center;
-  margin-top: 1em;
-  margin: auto;
-  min-height: 100vh;
+  place-items: center;
 }
+
+.games{
+  margin-top: 10px;
+  grid-area: 3 / 1 / 4 / 4;
+  display: inline-flex;
+  justify-content: center;
+}
+
 
 li {
   list-style-type: none;

@@ -11,7 +11,9 @@ const RedirectLink = (props) => {
     window.location.href = url;
 
     return (
-      <div> </div>
+      <canvas className='snakegame' width="300" height="100">
+
+      </canvas>
     );
 };
 

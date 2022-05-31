@@ -13,6 +13,12 @@ const BackgroundCur = () => {
         });
     })
 
+    $( window ).resize(function() {
+        TweenMax.to($('.cursorBack'), 0.4, {
+            left: 0,
+            top: 0,
+        });
+    })
 
     return (
         <div id="cursor">
